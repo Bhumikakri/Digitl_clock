@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: none; */
+}
+h1{
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    margin-top: 0;
+    color: rgb(162, 0, 177);
+    text-align: center;
+    text-shadow:
+    4px -1px 5px #c63f61;
+}
+.Timing {
+  background: transparent;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(102, 14, 14);
+  text-shadow:5px 8px 10px #ad4242f5;
+}
+.clock{
+   display: flex;
+   gap: 16px;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.box {
+    border-radius: 10px;
+    /* min-width: 80px; */
+    width: 6rem;
+    /* padding-top: px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(8, 27, 56, 0.644);
+    box-shadow: rgba(112, 112, 112, 0.4) 0px 30px 90px;
+}
+.hms {
+    background-color: rgba(3, 12, 31, 0.849);
+    padding:0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 3px 0;
+}
+h2 {
+    font-size: 2rem;
+    transform: scale(1);
+    color: rgb(253, 247, 165);
+}
+h2:hover {
+    transition: all 0.8s ease-in-out;
+    transform: scale(1.5);
+}
+p {
+    width: 100%;
+    background-color: rgb(255, 140, 0);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    color: rgb(255, 227, 193);
+    padding: 3px 0;
+  }
+h3 {
+   font-size: 1.5rem;
+   color: rgb(10, 4, 63);
+   background-color: rgb(166, 164, 252);
+   padding: 3px 7px;
+   border-radius: 8px;
+}
+.imageChange{
+    background-image: url("https://thumbs.dreamstime.com/b/sunrise-beam-beautiful-park-272399203.jpg");
+}
+.backimage{
+    background-image: url("https://th.bing.com/th/id/R.186167b5f120ba2237adffc8d8a1af08?rik=97HFeBl9PPGD2A&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2f4%2f707310-beautiful-sunny-wallpapers-1920x1080-for-macbook.jpg&ehk=DTLISg2cREd%2bMV%2b6IOT8GmABFQMyjhyk%2bBTR%2fCgWn3I%3d&risl=&pid=ImgRaw&r=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.evening{
+    background-image: url("https://th.bing.com/th/id/OIP.PD5V_4QxNQuMQvKrAGAkAQHaFP?pid=ImgDet&rs=1");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------- pending works------------------------- */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.clock-dail {
+    width: 300px;
+    height: 300px;
+    border: 15px solid rgb(32, 1, 1);
+    border-radius: 50%;
+    position: relative;
+}
+.point {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+}
+.hour {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(32, 1, 1);
+    position: absolute;
+}
+.num-1 {
+    top: 20px;
+    right: 70px;
+}
+.num-2 {
+    top: 65px;
+    right: 28px;
+}
+.num-3 {
+    top: 125px;
+    right: 10px;
+}
+
+
+
+.minute-hand-wrraper{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    /* background-color: #c63f61; */
+    top: 35px;
+    left: 35px;
+    border-radius: 50%;
+}
+.minute-hand {
+    position: relative;
+}
+.minute-hand .hand {
+    width: 2px;
+    height: 100px;
+    background-color: rgb(43, 5, 5);
+    position: absolute;
+    left: 115px;
+    top: 6px;
+}
+.minute-hand .arrow {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 110px;
+    top: -7px;
+}
+/* https://youtu.be/cx0TU2ZMAdU?si=Fub55Rwg-EEoGkzd; */
